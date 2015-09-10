@@ -6,7 +6,6 @@ var gulp           = require("gulp"),
     rename         = require("gulp-rename"),
     sourcemaps     = require("gulp-sourcemaps"),
     browserify     = require("browserify"),
-    shim           = require("browserify-shim"),
     through2       = require("through2");
 
 var fs = require("fs");

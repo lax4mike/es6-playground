@@ -1,7 +1,6 @@
 var gulp           = require("gulp"),
     utils          = require("./utils"),
     config         = utils.loadConfig(),
-    rename         = require("gulp-rename"),
     template       = require("gulp-template");
 
 var path = require("path"),
@@ -70,7 +69,6 @@ function getExamples() {
             content: content
         };
     });
-
 
     return examples;
 
